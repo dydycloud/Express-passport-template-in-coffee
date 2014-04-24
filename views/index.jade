@@ -2,4 +2,7 @@ extends layout
 
 block content
   if (user)
-    You are currently logged in as #{user.username}
+    h3 Welcome #{user.username}!
+  else
+    h3 Welcome to Mnk World.
+    h3 Register and sign in to try that template.
